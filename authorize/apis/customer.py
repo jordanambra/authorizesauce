@@ -22,6 +22,7 @@ class CustomerAPI(object):
             'x_test_request': 'Y' if test else 'F',
             'x_delim_data': 'TRUE',
             'x_delim_char': ';',
+            'x_duplicate_window': '0',
         })
 
     @property
